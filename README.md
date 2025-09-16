@@ -1,12 +1,64 @@
-# React + Vite
+# 📝 Todo List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and modern Todo List app built with **React.js** and **Tailwind CSS**. Manage your daily tasks with features like theme switching, search, filter, edit, delete, and local storage support.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ✅ Add new todos
+- 🌗 Light and Dark Mode Toggle
+- 🔍 Real-time Search
+- 🎯 Filter Todos by:
+  - All
+  - Active
+  - Completed
+- ✏️ Edit existing todos
+- 🗑️ Delete todos
+- 💾 Persistent storage using **localStorage**
+- 📱 Fully responsive design (mobile-friendly)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📸 Screenshots
+
+| Light Mode 
+
+<img width="1908" height="973" alt="dark" src="https://github.com/user-attachments/assets/4698c034-1c48-4f99-8cf2-7b0f477a5bc5" />
+
+
+| Dark Mode 
+
+<img width="1912" height="987" alt="Light" src="https://github.com/user-attachments/assets/da3d8139-50d7-44d3-8c1a-ed6d36ee9f95" />
+
+
+
+---
+
+## 🛠 Tech Stack
+
+- React.js
+- Tailwind CSS
+- React Icons
+- Vite (for fast development server)
+
+---
+
+## 📁 Project Structure
+
+src/
+├── Components/
+
+│ ├── TodoForm.jsx
+
+│ ├── TodoItem.jsx
+
+│ └── TodoList.jsx
+
+├── App.jsx
+
+├── main.jsx
+
+└── index.css
+
+
